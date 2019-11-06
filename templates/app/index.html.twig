@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+    {{ form(form) }}
+
+    <div class="example-wrapper">
+        <table class="table" id="weather_table" border='1'>
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">City</th>
+                <th scope="col">Date</th>
+                <th scope="col">Temperature</th>
+                <th scope="col">Humidity</th>
+                <th scope="col">Pressure</th>
+            </tr>
+            </thead>
+        </table>
+    </div>
+{% endblock %}
+
